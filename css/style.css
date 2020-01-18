@@ -41,9 +41,9 @@ h1, h2, h3, h4, h5,
 
 .site-wrap:before {
   display: none;
-  -webkit-transition: .3s all ease-in-out;
-  -o-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
+  -webkit-transition: .2s all ease-in-out;
+  -o-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
   background: rgba(0, 0, 0, 0.6);
   content: "";
   position: absolute;
@@ -1124,9 +1124,25 @@ h1, h2, h3, h4, h5,
         .comment-list li .comment-body .reply:hover {
           color: #000;
           background: #e3e3e3; }
+
 .form-login {
   margin-top: 30%;
   color: #fff;
   padding-right: 150px;
-  
+}  
+
+
+
+.dashboard {
+  flex: none;
+  max-width: none;
+  min-height: 50vh;
+}
+
+.upload-div {
+  margin-top: 20vh;
+}
+
+.db-heading {
+  border-bottom: 2px solid white;
 }
