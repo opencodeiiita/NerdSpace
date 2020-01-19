@@ -1125,6 +1125,13 @@ h1, h2, h3, h4, h5,
           color: #000;
           background: #e3e3e3; }
 
+.form-login {
+  margin-top: 30%;
+  color: #fff;
+  padding-right: 150px;
+}  
+
+
 
 .dashboard {
   flex: none;
