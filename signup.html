@@ -15,7 +15,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <script src="js/loginValidation.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -29,7 +29,8 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div> -->
+    </div> 
+-->
 
 
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
@@ -53,8 +54,8 @@
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
                             <li class="cta">
-                                <a href="signup.html" class="nav-link">
-                                    <span>Sign Up</span>
+                                <a href="index.html" class="nav-link">
+                                    <span>Login</span>
                                 </a>
                                 <a href="#contact-section" class="nav-link">
                                     <span>Contact Us</span>
@@ -91,29 +92,44 @@
 
                     <div class="col-lg-6 mb-4">
                         <form class="form-login">
-                            <h1>Login</h1>
+                            <h1>Sign Up</h1>
+                            <div class="form-group">
+                                <label for="InputName1">Name</label>
+                                <input type="name" class="form-control" id="InputName1" aria-describedby="emailHelp" placeholder="Enter your name">
+                                <small id="emailHelp" class="form-text text-muted">This is how people know you</small>
+                            </div>
                             <div class="form-group">
                                 <label for="InputEmail1">Email</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required title="Enter valid email address">
+                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="LoginPassword1">Password</label>
-                                <input type="password" class="form-control" id="LoginPassword1" pattern=".{8,20}" placeholder="Password" required title="length must be between 8-20 character">
+                                <input type="password" class="form-control" id="LoginPassword1" placeholder="Password">
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="Check2">
                                 <label class="form-check-label" for="Check2">Remember Me</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Login</button>
-                        </form>
+
+                            <div class="span12">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                                <div class="d-flex justify-content-center">OR</div>
+                                <button type="submit" class="btn btn-outline-primary btn-block">Sign Up with Google</button>
+                                <button type="submit" class="btn btn-outline-primary btn-block ">Sign Up with Github</button>
+
+                            </div>
                     </div>
 
 
+                    </form>
                 </div>
 
+
             </div>
+
         </div>
+    </div>
     </div>
     </div>
     <script>
