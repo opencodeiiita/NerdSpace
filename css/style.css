@@ -1179,3 +1179,21 @@ footer{
 	z-index: 9999;
 	background: url("../giphy-downsized.gif") center no-repeat #fff;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  margin: 10px;
+}
+
+@media (max-width: 775px) {
+  .cards {
+    grid-template-columns: auto auto;
+  }
+  .courses {
+    margin-top: 4em;
+  }
+}

@@ -29,7 +29,8 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div> -->
+    </div> 
+-->
 
 
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
@@ -41,7 +42,7 @@
                 <div class="mx-auto text-center">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
-                            <li><a href="#home-section" class="nav-link">Home</a></li>
+                            <li><a href="index.html" class="nav-link">Home</a></li>
                             <li><a href="#courses-section" class="nav-link">Notes</a></li>
                             <li><a href="courses.html" class="nav-link">Courses</a> </li>
                             <li><a href="#teachers-section" class="nav-link">Contributors</a></li>
@@ -53,8 +54,8 @@
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
                             <li class="cta">
-                                <a href="signup.html" class="nav-link">
-                                    <span>Sign Up</span>
+                                <a href="index.html" class="nav-link">
+                                    <span>Login</span>
                                 </a>
                                 <a href="#contact-section" class="nav-link">
                                     <span>Contact Us</span>
@@ -91,7 +92,12 @@
 
                     <div class="col-lg-6 mb-4">
                         <form class="form-login">
-                            <h1>Login</h1>
+                            <h1>Sign Up</h1>
+                            <div class="form-group">
+                                <label for="InputName1">Name</label>
+                                <input type="name" class="form-control" id="InputName1" aria-describedby="emailHelp" placeholder="Enter your name">
+                                <small id="emailHelp" class="form-text text-muted">This is how people know you</small>
+                            </div>
                             <div class="form-group">
                                 <label for="InputEmail1">Email</label>
                                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -105,15 +111,25 @@
                                 <input type="checkbox" class="form-check-input" id="Check2">
                                 <label class="form-check-label" for="Check2">Remember Me</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
-                        </form>
+
+                            <div class="span12">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                                <div class="d-flex justify-content-center">OR</div>
+                                <button type="submit" class="btn btn-outline-primary btn-block">Sign Up with Google</button>
+                                <button type="submit" class="btn btn-outline-primary btn-block ">Sign Up with Github</button>
+
+                            </div>
                     </div>
 
 
+                    </form>
                 </div>
 
+
             </div>
+
         </div>
+    </div>
     </div>
     </div>
     <script>
@@ -122,41 +138,6 @@
             $(".se-pre-con").delay(1000).fadeOut("slow");;
         });
     </script>
-
-  </body>
-</html>
-<div class="footer">
-  <footer id="footer" class="section-bg">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <a id="back2Top" title="Move to Top" href="#"></a>
-          </div>
-        </div>
-
-     <div style="display:inline-"> 
-		 <div class="left">
-			 <a  href="http://www.iiita.ac.in"><img style="width: 50px; height: 50px;" src="iiita.png" alt="IIITA"></a>
-			<a  href="https://geekhaven.iiita.ac.in/"><img style="width: 50px; height: 50px;" src="geekhaven.png" alt="GeekHaven"></a>
-		 </div>
-		 <div class="center">
-			<a  href="http://www.twitter.com"><img style="width: 50px; height: 50px;" src="Imagetwitter.png" alt="twitter"></a>
-			<a  href="http://www.instagram.com"><img style="width: 50px; height: 50px;" src="instagram.jpg" alt="instagram"></a>
-			<a  href="http://www.googleplus.com"><img style="width: 50px; height: 50px;" src="Imagegoogleplus.jpg" alt="googleplus"></a>
-			<a  href="http://www.facebook.com"><img style="width: 50px; height: 50px;" src="Imagefacebook.jpg" alt="facebook"></a>
-			<a  href="http://www.github.com"><img style="width: 50px; height: 50px;" src="github.png" alt="github"></a>
-		</div>
-		<div class="right">
-			<a  href="https://github.com/opencodeiiita"><img style="width: 50px; height: 50px;" src="opencode.jpg" alt="OpenCode"></a>
-		</div>
-		<div class="copyright">
-	  <br/>
-        &copy; Copyright <strong>OC</strong>. All Rights Reserved
-      </div>
-      </div>
-
 </body>
 
 </html>
-
