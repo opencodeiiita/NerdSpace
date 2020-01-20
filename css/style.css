@@ -866,7 +866,28 @@ h1, h2, h3, h4, h5,
       background-color: #e6e6e6; }
     .nonloop-block-14 .owl-dots .owl-dot.active span {
       background-color: #7971ea; }
+footer{
+	width: 100%;
+	background-color: white;
+	padding: 10px 0px;
+    height:5px;
+}
+.copyright {
+    float: left;
+}
 
+.center { 
+	width: 60%;
+	float: left;
+}
+.right { 
+    width: 10%;
+	float: right;
+}
+.left { 
+    width: 30%;
+	float: left;
+}
 .footer-section {
   padding: 7em 0;
   background-color: #fafafa; }
