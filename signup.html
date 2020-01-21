@@ -105,7 +105,7 @@
                             <div class="form-group">
                                 
                                 <label for="InputName1">Name</label>
-                                <input type="name" class="form-control" id="InputName1" pattern=".{2,20}" aria-describedby="emailHelp" placeholder="Enter your name" required title="Enter valid name">
+                                <input type="name" class="form-control" id="InputName1" pattern=".{1,20}" aria-describedby="emailHelp" placeholder="Enter your name" required title="Please enter valid name">
                                 <script>
                                      if (InputName1.length < 1) {
                                     ('#InputName1').after('<span class="error">This field is required</span>');
@@ -119,12 +119,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail1">Email</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required title="Enter valid email address">
+                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required title="Please enter valid email address">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="LoginPassword1">Password</label>
-                                <input type="password" class="form-control" pattern=".{8,20}" id="LoginPassword1" placeholder="Password" required title="Length must be between 8-20 character">
+                                <input type="password" class="form-control" pattern=".{8,20}" id="LoginPassword1" placeholder="Password" required title="Password must be of 8-20 characters">
                             </div>
                             
                             <div class="form-group form-check">
