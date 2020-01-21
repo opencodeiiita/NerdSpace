@@ -1150,9 +1150,21 @@ footer{
   margin-top: 30%;
   color: #fff;
   padding-right: 150px;
-}  
+}
+.sign_in_butn{
+  width: 390px
+}
 
+.google-login{
+  padding-bottom: 1em;
+}
 
+.github-login{
+  padding-bottom: 1em;
+}
+.or-login{
+    text-align: center;
+}
 
 .dashboard {
   flex: none;
