@@ -298,8 +298,8 @@ h1, h2, h3, h4, h5,
 /* Navbar */
 .site-logo {
   position: relative;
-  font-weight: 900;
-  font-size: 1.3rem; }
+  font-weight: 800;
+  font-size: 1.9em; }
   .site-logo a {
     color: #fff; }
 
@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #7971ea;
+      color: #8bc34a;
       display: inline-block;
       padding: 5px 20px; }
     .site-navbar .site-navigation .site-menu a {
@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5,
           transition: 0s all;
           color: #343a40; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-          color: #7971ea !important; }
+          color: #8bc34a !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -684,12 +684,12 @@ h1, h2, h3, h4, h5,
       padding: 4em 0; } }
 
 .cta a span {
-  border-color: #7971ea;
+  border-color: #8bc34a;
   padding: 14px 20px;
-  color: #fff;
-  background: #7971ea;
+  color: #434541;
+  background: #8bc34a;
   border-radius: 30px;
-  font-size: .7rem;
+  font-size: 0.8rem;
   font-weight: 900;
   text-transform: uppercase;
   -webkit-transition: .3s all ease;
@@ -699,8 +699,9 @@ h1, h2, h3, h4, h5,
     color: #fff; }
 
 .cta a:hover span {
-  background: #4f45e3;
-  color: #fff; }
+  background: #7cad42;
+  color: #fff;
+   }
 
 .cta a.active {
   border-bottom: none; }
@@ -1164,6 +1165,7 @@ footer{
 }
 .or-login{
     text-align: center;
+    color: #ffffff;
 }
 
 .dashboard {
@@ -1208,4 +1210,47 @@ footer{
   .courses {
     margin-top: 4em;
   }
+}
+.form-control{
+  border-radius: 20px;
+}
+#login-btn{
+  border-radius: 25px;
+  font-size: 15px;
+}
+label{
+  font-size: 20px;
+  font-weight: 300;
+}
+.text-muted{
+  font-size: 15px;
+}
+#header-links{
+  font-size: 20px;
+  font-weight: 250;
+  transition: border 0.1s;
+  padding: 8px;
+}
+#header-links:hover{
+  border-bottom: 3px solid #8bc34a;
+}
+.ask {
+  color: #c2c2c2;
+}
+#signup_btn{
+        position: absolute;
+        width: 170px;
+        height: 46px;
+         background-color:  #8bc34a;
+         border: none;
+         color: white;
+         text-align: center;
+         align-items: center;
+         font-weight: 400;
+         padding: 5px;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         cursor: pointer;
+         border-radius: 20px;
 }

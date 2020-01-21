@@ -42,16 +42,11 @@
                 <div class="mx-auto text-center">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                            <li><a href="index.html" class="nav-link"><span id = "header-links">Home</span></a></li>
+                            <li><a href="#courses-section" class="nav-link"><span id = "header-links">Notes</span></a></li>
+                            <li><a href="courses.html" class="nav-link"><span id = "header-links">Courses</span></a> </li>
 
-                            <li><a href="#home-section" class="nav-link">Home</a></li>
-                            <li><a href="#courses-section" class="nav-link">Notes</a></li>
-                            <li><a href="#programs-section" class="nav-link">Courses</a> </li>
-
-                            <li><a href="index.html" class="nav-link">Home</a></li>
-                            <li><a href="#courses-section" class="nav-link">Notes</a></li>
-                            <li><a href="courses.html" class="nav-link">Courses</a> </li>
-
-                            <li><a href="#teachers-section" class="nav-link">Contributors</a></li>
+                            <li><a href="#teachers-section" class="nav-link"><span id = "header-links">Contributors</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -100,7 +95,7 @@
                         <form class="form-login">
                             <h1>Sign Up</h1>
                             <div class="form-group">
-                                <label for="InputName1">Name</label>
+                                <label for="InputName1" id = "signup-label">Name</label>
                                 <input type="name" class="form-control" id="InputName1" aria-describedby="emailHelp" placeholder="Enter your name">
                                 <small id="emailHelp" class="form-text text-muted">This is how people know you</small>
                             </div>
@@ -119,10 +114,12 @@
                             </div>
 
                             <div class="span12">
-                                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
-                                <div class="d-flex justify-content-center">OR</div>
-                                <button type="submit" class="btn btn-outline-primary btn-block">Sign Up with Google</button>
-                                <button type="submit" class="btn btn-outline-primary btn-block ">Sign Up with Github</button>
+                                <button type="submit" class="btn btn-success btn-lg btn-block" id = "login-btn">Sign Up</button>
+                                <p></p>
+                                <p class="or-login">OR</p>
+                                <p></p>
+                                <button type="submit" class="btn btn-outline-success btn-block" id = "login-btn">Sign Up with Google</button>
+                                <button type="submit" class="btn btn-outline-success btn-block" id = "login-btn">Sign Up with Github</button>
 
                             </div>
                     </div>

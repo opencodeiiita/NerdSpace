@@ -40,23 +40,23 @@
 
                 <div class="mx-auto text-center">
                     <nav class="site-navigation position-relative text-right" role="navigation">
-                        <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
-                            <li><a href="#home-section" class="nav-link">Home</a></li>
-                            <li><a href="#courses-section" class="nav-link">Notes</a></li>
-                            <li><a href="courses.html" class="nav-link">Courses</a> </li>
-                            <li><a href="#teachers-section" class="nav-link">Contributors</a></li>
+                        <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block m-0 p-0">
+                            <li><a href="#home-section" class="nav-link"><span id = "header-links">Home</span></a></li>
+                            <li><a href="#courses-section" class="nav-link"><span id = "header-links">Notes</span></a></li>
+                            <li><a href="courses.html" class="nav-link"><span id = "header-links">Courses</span></a> </li>
+                            <li><a href="#teachers-section" class="nav-link"><span id = "header-links">Contributors</span></a></li>
                         </ul>
                     </nav>
                 </div>
 
-                <div class="ml-auto w-25">
+               <div class="ml-auto w-25">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
                             <li class="cta">
-                                <a href="signup.html" class="nav-link">
+                                <a href="signup.html" class="button">
                                     <span>Sign Up</span>
                                 </a>
-                                <a href="#contact-section" class="nav-link">
+                                <a href="#contact-section" class="button">
                                     <span>Contact Us</span>
                                 </a>
 
@@ -86,7 +86,6 @@
                             <p class="mb-4" data-aos="fade-up" data-aos-delay="200">You can find your notes,question papers and other study related issue.
                             </p>
                         </div>
-
                     </div>
 
                     <div class="col-lg-6 mb-4">
@@ -105,13 +104,15 @@
                                 <input type="checkbox" class="form-check-input" id="Check2">
                                 <label class="form-check-label" for="Check2">Remember Me</label>
                             </div>
-                            <button type="submit" class="btn btn-primary sign_in_butn">Login</button>
+                            <button type="submit" class="btn btn-success sign_in_butn" id = "login-btn">Login</button>
+                            <p></p>
                             <p class="or-login">OR</p>
+                            <p></p>
                             <div class="google-login">
-                              <button type="submit" class="btn btn-outline-primary btn-block">Sign In with Google</button>
+                              <button type="submit" class="btn btn-outline-success btn-block" id = "login-btn">Sign In with Google</button>
                             </div>
                             <div class="github-login">
-                              <button type="submit" class="btn btn-outline-primary btn-block ">Sign In with Github</button>
+                              <button type="submit" class="btn btn-outline-success btn-block" id = "login-btn">Sign In with Github</button>
                             </div>
 
                         </form>
