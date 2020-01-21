@@ -1130,6 +1130,9 @@ h1, h2, h3, h4, h5,
   color: #fff;
   padding-right: 150px;
 }
+.sign_in_butn{
+  width: 390px
+}
 
 .google-login{
   padding-bottom: 1em;
