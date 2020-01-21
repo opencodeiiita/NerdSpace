@@ -1129,9 +1129,18 @@ h1, h2, h3, h4, h5,
   margin-top: 30%;
   color: #fff;
   padding-right: 150px;
-}  
+}
 
+.google-login{
+  padding-bottom: 1em;
+}
 
+.github-login{
+  padding-bottom: 1em;
+}
+.or-login{
+    text-align: center;
+}
 
 .dashboard {
   flex: none;
