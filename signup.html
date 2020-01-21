@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-
+    
+    <!-- <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script> -->
+    <!-- <script src="js/jquery/.validate.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
+    <script type="text/javascript" src="signup.js"></script>
+  
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -97,12 +100,25 @@
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <form class="form-login">
+                        <form class="form-login" id="signupf">
                             <h1>Sign Up</h1>
                             <div class="form-group">
+                                
                                 <label for="InputName1">Name</label>
                                 <input type="name" class="form-control" id="InputName1" aria-describedby="emailHelp" placeholder="Enter your name">
-                                <small id="emailHelp" class="form-text text-muted">This is how people know you</small>
+                                <small id="emailHelp" class="form-text text-muted">This is how people will know you</small>
+                                
+<!--                                 
+                                <fieldset>
+                                <label>desired username</label>
+                                <p id="username_error" class="error">That Username is unavailable</p>
+                                </fieldset>
+                             -->
+                            
+                            
+                            
+                            
+                            
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail1">Email</label>
