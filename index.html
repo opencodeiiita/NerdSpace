@@ -15,7 +15,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
+    <script src="js/loginValidation.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -94,18 +94,18 @@
                             <h1>Login</h1>
                             <div class="form-group">
                                 <label for="InputEmail1">Email</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required title="Enter valid email address">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="LoginPassword1">Password</label>
-                                <input type="password" class="form-control" id="LoginPassword1" placeholder="Password">
+                                <input type="password" class="form-control" id="LoginPassword1" pattern=".{8,20}" placeholder="Password" required title="length must be between 8-20 character">
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="Check2">
                                 <label class="form-check-label" for="Check2">Remember Me</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+                            <button type="submit" class="btn btn-primary">Login</button>
                         </form>
                     </div>
 
