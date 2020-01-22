@@ -3,6 +3,7 @@ body {
   line-height: 1.7;
   color: gray;
   font-weight: 300;
+  flex: 1 0 auto;
   font-size: 1.1rem; }
 
 ::-moz-selection {
@@ -1247,8 +1248,11 @@ label.error {
 
 
 .footer-main{
-  position: fixed;
+  /* position: fixed; */
+  left: 0;
+  flex-shrink: 0;
   bottom: 0;
+  width: 100%;
 }
 .footer-first{
   height: 10px;
@@ -1257,6 +1261,8 @@ label.error {
   background: #3D687C;
 }
 .footer-second{
+  /* position: fixed; */
+  /* /position: right; */
   background: #212C43;
 }
 .footer-second p{
@@ -1271,6 +1277,7 @@ label.error {
   border-radius: 4px;
   padding: 10px 13px;
   margin-right: 5px;
+
 }
 .footer-icon i:hover{
   color: #fff;
@@ -1286,6 +1293,7 @@ label.error {
 
 @media screen and (min-width:320px) and (max-width:360px) {
   .footer-second p{
+    position: fixed;
     font-size: 15px !important;
     margin-bottom: 2px !important;
     text-align: center;
@@ -1294,3 +1302,4 @@ label.error {
     padding: 7px 8px !important;
   }
 }
+
