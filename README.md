@@ -23,10 +23,6 @@ Comment on the issue.First person to comment will be assigned the issue.In case 
 issue will be reassigned. If you have difficulty approaching the issue, feel
 free to ask on our slack channel.
 
-# Test Accounts
-Email: portal.test.oc@gmail.com
-Password: portal-test-pass
-
 # Guidelines
 Please help us follow the best practice to make it easy for the reviewer as well
 as the contributor. We want to focus on the code quality more than on managing
@@ -43,10 +39,8 @@ pull request ethics.
    and solve it once we approve them. Additional points for suggesting genuine issues will be awarded.
 7. Avoid duplicate PRs, if need be comment on the older PR with the PR number of
    the follow-up (new PR) and close the obsolete PR yourself.
-8. Be polite to other community members.  
+8. Be polite to other community members.
 9. PR template should be strictly followed, else the points won't be reflected
-   on the leaderboard.                                                                   
-   
-10. We are assuming that everyone here are mature enough to follow developer ethics and not use the test account for any sort personal usage.
+   on the leaderboard.
 
 Happy Coding 🤟

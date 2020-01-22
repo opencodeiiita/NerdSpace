@@ -15,22 +15,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <script src="js/loginValidation.js"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
-
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
-$(function(){
-  //$("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script>  -->
 </head>
+
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div class="se-pre-con"></div>
     <!-- <div class="site-wrap">
@@ -55,12 +42,11 @@ $(function(){
                 <div class="mx-auto text-center">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                            <li><a href="index.html" class="nav-link"><span id = "header-links">Home</span></a></li>
+                            <li><a href="#courses-section" class="nav-link"><span id = "header-links">Notes</span></a></li>
+                            <li><a href="courses.html" class="nav-link"><span id = "header-links">Courses</span></a> </li>
 
-                            <li><a href="#home-section" class="nav-link">Home</a></li>
-                            <li><a href="#courses-section" class="nav-link">Notes</a></li>
-                            <li><a href="courses.html" class="nav-link">Courses</a> </li>
-
-                            <li><a href="#teachers-section" class="nav-link">Contributors</a></li>
+                            <li><a href="#teachers-section" class="nav-link"><span id = "header-links">Contributors</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -106,43 +92,34 @@ $(function(){
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <form class="form-login" id="signupf">
+                        <form class="form-login">
                             <h1>Sign Up</h1>
                             <div class="form-group">
-                                
-                                <label for="InputName1">Name</label>
-                                <input type="name" class="form-control" id="InputName1" pattern=".{1,20}" aria-describedby="emailHelp" placeholder="Enter your name" required title="Please enter valid name">
-                                <script>
-                                     if (InputName1.length < 1) {
-                                    ('#InputName1').after('<span class="error">This field is required</span>');
-                                  }
-                                  
-                                </script>
-                               
-                                <small id="emailHelp" class="form-text text-muted">This is how people will know you</small>
-                            
-                            
+                                <label for="InputName1" id = "signup-label">Name</label>
+                                <input type="name" class="form-control" id="InputName1" aria-describedby="emailHelp" placeholder="Enter your name">
+                                <small id="emailHelp" class="form-text text-muted">This is how people know you</small>
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail1">Email</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required title="Please enter valid email address">
+                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="LoginPassword1">Password</label>
-                                <input type="password" class="form-control" pattern=".{8,20}" id="LoginPassword1" placeholder="Password" required title="Password must be of 8-20 characters">
+                                <input type="password" class="form-control" id="LoginPassword1" placeholder="Password">
                             </div>
-                            
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="Check2">
                                 <label class="form-check-label" for="Check2">Remember Me</label>
                             </div>
 
                             <div class="span12">
-                                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
-                                <div class="d-flex justify-content-center">OR</div>
-                                <button type="submit" class="btn btn-outline-primary btn-block">Sign Up with Google</button>
-                                <button type="submit" class="btn btn-outline-primary btn-block ">Sign Up with Github</button>
+                                <button type="submit" class="btn btn-success btn-lg btn-block" id = "login-btn">Sign Up</button>
+                                <p></p>
+                                <p class="or-login">OR</p>
+                                <p></p>
+                                <button type="submit" class="btn btn-outline-success btn-block" id = "login-btn">Sign Up with Google</button>
+                                <button type="submit" class="btn btn-outline-success btn-block" id = "login-btn">Sign Up with Github</button>
 
                             </div>
                     </div>
@@ -164,46 +141,6 @@ $(function(){
             $(".se-pre-con").delay(1000).fadeOut("slow");;
         });
     </script>
-
-
-<div class="bg-secondary">
-    <div class="footer-main w-100">
-        <!-- <div class="footer-first"> -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-12"></div>
-                </div>
-            </div>
-        <!-- </div> -->
-        <div class="footer-second">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-12 text-white">
-                        <div class="row p-3">
-                            <div class="col-md-6 col-12">
-                                <p class="m-0">All Right Reserved 2020 - <a href="https://geekhaven.iiita.ac.in/" target="_blank">GeekHaven, IIIT Allahabad</a></p>
-                            </div>
-                            <div class="col-md-6 col-12 footer-icon text-right">
-
-                                <a href="https://github.com/GeekHaven">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                                
-                                <a href="https://twitter.com/geekhaveniiita?lang=en"><i class="fa fa-twitter">
-
-                                </i>  </a>
-                            
-                                
-                                <a href="https://geekhaven.iiita.ac.in/">
-                                <i class="fa fa-globe"></i> </a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>
