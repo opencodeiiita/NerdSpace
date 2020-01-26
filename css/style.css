@@ -299,6 +299,7 @@ h1, h2, h3, h4, h5,
 .site-logo {
   position: relative;
   font-weight: 900;
+   margin-bottom: -3%;
   font-size: 1.3rem; }
   .site-logo a {
     color: #fff; }
@@ -654,7 +655,7 @@ h1, h2, h3, h4, h5,
     height: 100%;
     width: 100%;
     background: #343a40;
-    opacity: .9;
+    opacity: .8;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .slide-1:before {
@@ -685,8 +686,9 @@ h1, h2, h3, h4, h5,
 
 .cta a span {
   border-color: #7971ea;
-  padding: 14px 20px;
+  padding: 8px 13px;
   color: #fff;
+  float:left;
   background: #7971ea;
   border-radius: 30px;
   font-size: .7rem;
@@ -1126,11 +1128,11 @@ h1, h2, h3, h4, h5,
           background: #e3e3e3; }
 
 .form-login {
-  margin-top: 30%;
+  margin-top: 40%;
   color: #fff;
-  padding-right: 150px;
-}  
-
+  /*padding-right: 150px;*/
+  margin-right: 20%;
+}
 
 
 .dashboard {
@@ -1157,4 +1159,71 @@ h1, h2, h3, h4, h5,
 	height: 100%;
 	z-index: 9999;
 	background: url("../giphy-downsized.gif") center no-repeat #fff;
+}
+
+form{
+  /*background: url("https://i2.wp.com/www.gims.com.sg/wp-content/uploads/2015/09/501-Contact-Form-Background.jpg") ;*/
+  background: rgb(0, 0, 0, 0.4);
+  padding: 30px;
+  width: 80%;
+  border-radius: 30px;
+}
+
+svg {
+  height: 50%;
+  width: 50%;
+  opacity: 0.3;
+  margin-top: 0;
+}
+path {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+  opacity: 0.3;
+  margin-top: 0;
+  stroke-linejoin: round;
+}
+path:hover {
+  fill: aliceblue;
+  stroke: lightskyblue;
+}
+
+.avatar{
+  margin-left: 40%;
+  margin-top: -30%;
+}
+.form-body{
+  margin-left: 15%;
+}
+.logo{
+  background: rgba(255, 23, 23, 0.7);
+  padding: 3%;
+  border-radius: 15%;
+ 
+}
+.logo:hover {
+  background: red;
+  padding: 4%;
+
+  border-radius: 20%;
+}
+.nav-items:hover{
+  font-size: 110%;
+}
+
+.nav-items{
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 8%;
+}
+
+.form-group{
+  width: 90%;
+}
+[aos="fade"] {
+  opacity: 0.4;
+  transition-property: opacity;
+}
+
+[aos="fade"].position- {
+  opacity: 1;
 }
