@@ -50,17 +50,16 @@ $(function(){
 
         <div class="container-fluid">
             <div class="d-flex align-items-center">
-                <div class="site-logo mr-auto w-25"><a href="index.html">Portal</a></div>
+                <div class="site-logo mr-auto w-25 "><a class="logo" href="index.html">Portal</a></div>
 
                 <div class="mx-auto text-center">
-                    <nav class="site-navigation position-relative text-right" role="navigation">
+                    <nav class="site-navigation position-relative text-right " role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                            <li><a class="nav-items" href="dashboard.html" class="nav-link">Home</a></li>
+                            <li><a class="nav-items" href="#courses-section" class="nav-link">Notes</a></li>
+                            <li><a class="nav-items" href="#programs-section" class="nav-link">Courses</a> </li>
+                            <li><a class="nav-items" href="#teachers-section" class="nav-link">Contributors</a></li>
 
-                            <li><a href="#home-section" class="nav-link">Home</a></li>
-                            <li><a href="#courses-section" class="nav-link">Notes</a></li>
-                            <li><a href="courses.html" class="nav-link">Courses</a> </li>
-
-                            <li><a href="#teachers-section" class="nav-link">Contributors</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -69,8 +68,8 @@ $(function(){
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
                             <li class="cta">
-                                <a href="index.html" class="nav-link">
-                                    <span>Login</span>
+                                <a href="signup.html" class="nav-link">
+                                    <span>Login In</span>
                                 </a>
                                 <a href="#contact-section" class="nav-link">
                                     <span>Contact Us</span>
@@ -90,7 +89,7 @@ $(function(){
 
     <div class="intro-section" id="home-section">
 
-        <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
+ <div class="slide-1" style="background-image: url('https://digitaladdictsblog.com/wp-content/uploads/2019/01/shutterstock_295846730.jpg');" data-stellar-background-ratio="0.5">
             <div class="container">
 
 
@@ -106,45 +105,37 @@ $(function(){
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <form class="form-login" id="signupf">
-                            <h1>Sign Up</h1>
-                            <div class="form-group">
-                                
-                                <label for="InputName1">Name</label>
-                                <input type="name" class="form-control" id="InputName1" pattern=".{1,20}" aria-describedby="emailHelp" placeholder="Enter your name" required title="Please enter valid name">
-                                <script>
-                                     if (InputName1.length < 1) {
-                                    ('#InputName1').after('<span class="error">This field is required</span>');
-                                  }
-                                  
-                                </script>
-                               
-                                <small id="emailHelp" class="form-text text-muted">This is how people will know you</small>
-                            
-                            
-                            </div>
-                            <div class="form-group">
-                                <label for="InputEmail1">Email</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required title="Please enter valid email address">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="LoginPassword1">Password</label>
-                                <input type="password" class="form-control" pattern=".{8,20}" id="LoginPassword1" placeholder="Password" required title="Password must be of 8-20 characters">
+                        <form class="form-login" style="float:right;"> 
+                            <img src="avatar.png" style="width: 30%; height: 30%;" class="avatar">
+                            <div class="form-body">
+                                <h1 style="margin-left: 30%;">Sign Up</h1>
+                                <div class="form-group" style="margin-left: 20%;">
+                                    <label for="InputEmail1">Email</label>
+                                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group" style="margin-left: 20%;"> 
+                                    <label for="LoginPassword1">Password</label>
+                                    <input type="password" class="form-control" id="LoginPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group form-check" style="margin-left: 20%;">
+                                    <input type="checkbox" class="form-check-input" id="Check2">
+                                    <label class="form-check-label" for="Check2">Remember Me</label>
+                                </div>
+                                <br>
                             </div>
                             
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="Check2">
-                                <label class="form-check-label" for="Check2">Remember Me</label>
+                        
+                            <button type="submit" class="btn btn-primary btn-lg btn-block " style="margin-left: 25%;">Sign Up</button>
+                            <p class="or-login">OR</p>
+                            <div class="google-login">
+                              <button type="submit" class="btn btn-outline-primary btn-block " style="margin-left: 25%;">Sign Up with Google</button>
+                            </div>
+                            <div class="github-login">
+                              <button type="submit" class="btn btn-outline-primary btn-block " style="margin-left: 25%;">Sign Up with Github</button>
                             </div>
 
-                            <div class="span12">
-                                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
-                                <div class="d-flex justify-content-center">OR</div>
-                                <button type="submit" class="btn btn-outline-primary btn-block">Sign Up with Google</button>
-                                <button type="submit" class="btn btn-outline-primary btn-block ">Sign Up with Github</button>
-
-                            </div>
+                        </form>
                     </div>
 
                 </div>

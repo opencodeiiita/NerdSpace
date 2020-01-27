@@ -687,7 +687,7 @@ h1, h2, h3, h4, h5,
 
 .cta a span {
   border-color: #7971ea;
-  padding: 8px 13px;
+  padding: 8px 10px;
   color: #fff;
   float:left;
   background: #7971ea;
@@ -1226,7 +1226,7 @@ path:hover {
 }
 
 .avatar{
-  margin-left: 40%;
+  margin-left: 50%;
   margin-top: -30%;
 }
 .form-body{
@@ -1254,7 +1254,7 @@ path:hover {
 }
 
 .form-group{
-  width: 90%;
+  width: 100%;
 }
 [aos="fade"] {
   opacity: 0.4;
