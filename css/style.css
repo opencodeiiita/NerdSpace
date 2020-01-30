@@ -1,4 +1,4 @@
-/* Base */
+F/* Base */
 
 body {
     line-height: 1.7;
@@ -69,7 +69,6 @@ h5,
     background: rgba(0, 0, 0, 0.6);
     content: "";
     position: absolute;
-    z-index: 2000;
     top: 0;
     left: 0;
     right: 0;
@@ -81,7 +80,6 @@ h5,
 .offcanvas-menu .site-wrap {
     height: 100%;
     width: 100%;
-    z-index: 2;
 }
 
 .offcanvas-menu .site-wrap:before {
@@ -329,14 +327,12 @@ h5,
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
 }
 
 .bg-image>.container {
     position: relative;
-    z-index: 1;
 }
 
 @media (max-width: 991.98px) {
@@ -444,7 +440,6 @@ h5,
 .site-logo {
   position: relative;
   font-weight: 900;
-   margin-bottom: -3%;
   font-size: 1.3rem; }
   .site-logo a {
     color: #fff; }
@@ -462,8 +457,7 @@ h5,
 }
 
 .site-navbar {
-    margin-bottom: 0px;
-    z-index: 1999;
+    z-index: 1000;
     position: absolute;
     width: 100%;
     background: #343a40;
@@ -474,7 +468,7 @@ h5,
         width: 100%; } }
   .slide-1 .slide-text {
     opacity: 0;
-    visibility: hidden;
+/*    visibility: hidden;*/
     margin-top: 50px;
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
@@ -496,7 +490,7 @@ h5,
 }
 .cta a span {
   border-color: #7971ea;
-  padding: 8px 10px;
+  padding: 4px 5px;
   color: #fff;
   float:left;
   background: #7971ea;
@@ -511,8 +505,8 @@ h5,
     color: #fff; }
 @media (max-width: 1199.98px) {
     .site-navbar .container-fluid {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -521,7 +515,7 @@ h5,
 }
 
 .site-navbar .site-navigation .site-menu {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .site-navbar .site-navigation .site-menu .active {
@@ -539,8 +533,15 @@ h5,
     display: inline-block;
 }
 
+@media (max-width: 400px){
+    .site-navbar .site-navigation .site-menu>li>a {
+    padding: 5px;
+    
+}
+}
+
 .site-navbar .site-navigation .site-menu>li>a {
-    padding: 5px 20px;
+    padding: 10px;
     color: #fff;
     display: inline-block;
     text-decoration: none !important;
@@ -693,7 +694,6 @@ h5,
     width: 300px;
     position: fixed;
     right: 0;
-    z-index: 2000;
     padding-top: 20px;
     background: #fff;
     height: calc(100vh);
@@ -800,7 +800,6 @@ h5,
     position: absolute;
     right: 0px;
     top: 10px;
-    z-index: 20;
     width: 36px;
     height: 36px;
     text-align: center;
@@ -814,7 +813,6 @@ h5,
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
     font-size: 12px;
-    z-index: 20;
     font-family: "icomoon";
     content: "\f078";
     position: absolute;
@@ -892,7 +890,6 @@ h5,
 
 .sticky-wrapper {
     position: absolute;
-    z-index: 100;
     width: 100%;
 }
 
@@ -1066,7 +1063,7 @@ h5,
 
 .cta a span {
     border-color: #7971ea;
-    padding: 14px 20px;
+    padding: 10px 15px;
     color: #fff;
     background: #7971ea;
     border-radius: 30px;
@@ -1202,7 +1199,6 @@ h5,
     bottom: 0;
     content: "";
     background: rgba(121, 113, 234, 0.8);
-    z-index: 1;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .3s all ease;
@@ -1214,7 +1210,6 @@ h5,
     position: absolute;
     top: 10%;
     left: 10%;
-    z-index: 2;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .3s all ease;
@@ -1237,7 +1232,6 @@ h5,
 }
 
 .work-thumb:hover {
-    z-index: 3;
     -webkit-transform: scale(1.07);
     -ms-transform: scale(1.07);
     transform: scale(1.07);
@@ -1386,7 +1380,6 @@ footer {
     top: 50px;
     left: -30px;
     line-height: 0;
-    z-index: -1;
     font-size: 10rem;
     color: whitesmoke;
     font-weight: 900;
@@ -1435,7 +1428,6 @@ footer {
     position: absolute;
     text-align: center;
     bottom: 50px;
-    z-index: 9;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -1590,7 +1582,6 @@ footer {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1;
     top: 0;
     pointer-events: none;
 }
@@ -1757,7 +1748,6 @@ footer {
 	top: 0px;
 	width: 100%;
 	height: 100%;
-	z-index: 9999;
 	background: url("../giphy-downsized.gif") center no-repeat #fff;
 }
 
@@ -1834,7 +1824,6 @@ path:hover {
     top: 0px;
     width: 100%;
     height: 100%;
-    z-index: 9999;
     background: url("../images/giphy-downsized.gif") center no-repeat #fff;
 
 }
