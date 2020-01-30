@@ -46,44 +46,63 @@ $(function(){
 -->
 
 
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target mb-4" role="banner">
 
-        <div class="container-fluid">
-            <div class="d-flex align-items-center">
-                <div class="site-logo mr-auto w-25 "><a class="logo" href="index.html">Portal</a></div>
+        <nav class="site-navigation position-relative text-right navbar-expand-md navbar-dark bg-dark" role="navigation">
+        <div class="container-fluid row m-2 d-flex justify-content-between">   
+                    
 
-                <div class="mx-auto text-center">
-                    <nav class="site-navigation position-relative text-right " role="navigation">
-                        <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
-                            <li><a class="nav-items" href="dashboard.html" class="nav-link">Home</a></li>
-                            <li><a class="nav-items" href="#courses-section" class="nav-link">Notes</a></li>
-                            <li><a class="nav-items" href="#programs-section" class="nav-link">Courses</a> </li>
-                            <li><a class="nav-items" href="#teachers-section" class="nav-link">Contributors</a></li>
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls=" navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        
+ -->                
+                        
+
+                        <a href="#" class="navbar-brand">PORTAL</a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls=" navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        
+                        <div id="navbarSupportedContent" class="collapse navbar-collapse navbar-nav justify-content-around">
+
+                        <ul class="js-clone-nav navbar-nav">
+                            <li class="nav-item"><a href="dashboard.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#courses-section" class="nav-link">Notes</a></li>
+                            <li class="nav-item"><a href="#programs-section" class="nav-link">Courses</a> </li>
+                            <li class="nav-item"><a href="#teachers-section" class="nav-link">Contributors</a></li>
 
                         </ul>
-                    </nav>
-                </div>
-
-                <div class="ml-auto w-25">
-                    <nav class="site-navigation position-relative text-right" role="navigation">
-                        <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                            <li class="cta">
-                                <a href="signup.html" class="nav-link">
-                                    <span>Login In</span>
+                        </div>
+                        
+                        <div class="collapse navbar-collapse navbar-nav justify-content-end" id="navbarSupportedContent" >
+                        <ul class="js-clone-nav navbar-nav">
+                            <li class="cta nav-item">
+                                <a href="#" class="nav-link">
+                                    <span>Login</span>
                                 </a>
+                            </li>
+                            <li class="cta nav-item">
                                 <a href="#contact-section" class="nav-link">
                                     <span>Contact Us</span>
                                 </a>
 
                             </li>
                         </ul>
-                    </nav>
+                        </div>
+                        
 
                     <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
                         <span class="icon-menu h3"></span></a>
+                        </div>
                 </div>
-            </div>
         </div>
+    </nav>
+
 
     </header>
 
@@ -187,5 +206,10 @@ $(function(){
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
+
     </html>

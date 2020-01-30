@@ -4497,6 +4497,7 @@ input[type="button"].btn-block {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    align-items: center;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
