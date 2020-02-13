@@ -27,6 +27,16 @@ a {
 a:hover {
     text-decoration: none;
 }
+.logo1{
+    width:5em;
+    height:5em;
+    padding:0px !important;
+    border-radius:50% !important;
+    margin-bottom: -20px;
+    margin-top:-20px;
+    margin-right:5px;
+
+}
 
 h1,
 h2,
@@ -1996,13 +2006,14 @@ label.error {
 .footer-main {
     /* position: fixed; */
     left: 0;
+     height:15px !important;
     flex-shrink: 0;
     bottom: 0;
     width: 100%;
 }
 
 .footer-first {
-    height: 10px;
+    height: 20px;
     border-top: 2px solid #E45641;
     border-bottom: 2px solid #E45641;
     background: #3D687C;
@@ -2011,6 +2022,8 @@ label.error {
 .footer-second {
     /* position: fixed; */
     /* /position: right; */
+
+
     background: #212C43;
 }
 
@@ -2028,6 +2041,11 @@ label.error {
     border-radius: 4px;
     padding: 10px 13px;
     margin-right: 5px;
+    width:3%;
+    height:3%;
+}
+.fa{
+    font-size:x-large !important;
 }
 
 .footer-icon i:hover {
