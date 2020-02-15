@@ -27,6 +27,78 @@ a {
 a:hover {
     text-decoration: none;
 }
+.logo1{
+    width:5em;
+    height:5em;
+    padding:0px !important;
+    border-radius:50% !important;
+    margin-bottom: -20px;
+    margin-top:-20px;
+    margin-right:5px;
+
+}
+@media only screen and (max-width:400px)
+{
+    .abc{
+        margin-top: 150px !important;
+        margin-bottom:30px  !important;
+        height:70%;
+        margin-left:50px !important;
+        margin-right:30px !important;
+    }
+    .avatar{
+
+        width:80% !important;
+        height:20% !important;
+        margin-left:80px !important;
+        padding-top: 5px;
+    }
+    #mobile1{
+        font-size:40px !important;
+        margin-left: 50px !important;
+    }
+    .form-control{
+        width:200% !important;
+        margin-left:-60px !important;
+    }
+    .form-group{
+        margin-left: 80px !important;
+        margin-top:-10px !important;
+    }
+    .form-text{
+        margin-left:-60px !important;
+        width:200%;
+    }
+    #pass{
+        margin-left: -10px !important;
+    }
+    .form-check{
+        margin-left:17px !important;
+        white-space: nowrap;
+    }
+    .login{
+        margin-top: -30px;
+        height: 40px;
+        margin-left: 60px !important; 
+    }
+    .or-login{
+        margin-left: 90px !important;
+    }
+
+    .google{
+        width:200% !important;
+    }
+    .git{
+        width:200% !important;
+    }
+    .footer-icon{
+        margin-top:-50px;
+    }
+    .m-0{
+        width:200px !important;
+    }
+}
+
 
 h1,
 h2,
@@ -1996,13 +2068,14 @@ label.error {
 .footer-main {
     /* position: fixed; */
     left: 0;
+     height:15px !important;
     flex-shrink: 0;
     bottom: 0;
     width: 100%;
 }
 
 .footer-first {
-    height: 10px;
+    height: 20px;
     border-top: 2px solid #E45641;
     border-bottom: 2px solid #E45641;
     background: #3D687C;
@@ -2011,6 +2084,8 @@ label.error {
 .footer-second {
     /* position: fixed; */
     /* /position: right; */
+
+
     background: #212C43;
 }
 
@@ -2028,6 +2103,11 @@ label.error {
     border-radius: 4px;
     padding: 10px 13px;
     margin-right: 5px;
+    width:3%;
+    height:3%;
+}
+.fa{
+    font-size:x-large !important;
 }
 
 .footer-icon i:hover {
